@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form method="get" action="/index.html">
+    <h1 class="heading">My Cart </h1>
+    <hr>
+    <div id="addproduct">
+
+      <label><b>Title: </b></label><br/>
+      <input class="input" type="text" id="name" placeholder="Enter Product Name..."/>  <br/><br/>
+
+      <label><b>Image: </b></label><br/>
+      <input class="input" type="file" id="myImage" name="image"><br/><br/>
+
+      <label><b>Description: </b></label><br/>
+      <input class="input" type="text" id="description" placeholder="Describe Product Details..."/><br/><br/>
+
+      <label><b>Category: </b></label><br/>
+      <input class="input" type="text" id="category" placeholder="Write Category Of Product..."/><br/><br/>
+
+      <label><b>Price: </b></label><br/>
+      <input class="input" type="number" id="price" placeholder="Enter Product Price..."/><br/>
+
+      
+      <button class="btn" type="submit" id="addproduct">Add Product</button>
+
+      <form method="get" action="/index.html">
+        <button class="btn" type="submit" id="viewproduct">Go Back</button><br />
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
