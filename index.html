@@ -10,17 +10,26 @@
 
   <body>
     <h1 class="heading">Shopping Cart App</h1>
+    <h1 class="mycart">
+      <form method="get" action="/addtocart.html">
+      <button type="submit" id="mycart" class="btn">My Cart</button>
+      </form>
     <hr>
     <div id="label">
-      <label><b>Filter Products </b></label><br/>
+      <label><b>Filter Products</b></label><br/>
       <input class="input" type="text" id="search" placeholder="Search Here..."/>  <br/>
 
+      
       <form method="get" action="/addproduct.html">
         <button type="submit" id="addproduct" class="btn">Add New Product</button>
       </form>
 
+      <!-- <form method="get" action="/editproduct.html">
+        <button type="submit" id="editproduct" class="btn">Edit Product</button>
+      </form> -->
+
       <!-- <button type="button" id="addproduct" class="btn">Add Product</button>
-      <button type="button" id="viewproduct" class="btn">View Product</button> -->
+      <button type="button" id="viewproduct" class="btn">View Product</button> --> 
       <br />
 
     </div>
@@ -35,7 +44,7 @@
          </div> -->
         <!-- <button>Add to Cart</button> --> 
     </div>
-    <!-- <div class="card">
+    <!-- <div class="card">  
             <h1 class="title">title</h1>
             <img src="https://render.fineartamerica.com/images/rendered/medium/canvas-print/15.5/20/mirror/break/images/artworkimages/medium/2/floral-lion-iii-balazs-solti-canvas-print.jpg" alt="img" class="images">
             <p>description</p>
