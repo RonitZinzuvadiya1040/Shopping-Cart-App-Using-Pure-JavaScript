@@ -1,124 +1,186 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+
 .heading {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.mycart {
+  text-align: right;
+  font-size: 1rem;
+  margin: 2rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #cards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .card {
-    width: 23%;
-    box-shadow:  0 0 4px 3px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    padding: 1.5em;
-    margin-bottom: 2em;
+  width: 23%;
+  box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 1.5em;
+  margin-bottom: 2em;
 }
 
 .images {
-    width: 80%;
+  width: 80%;
 }
 
 .title {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
+  font:medium;
 }
 
-.category, .price {
-    font-weight: bold;
-    text-transform: capitalize;
-    margin: 1rem;
-    font-size: 1.2rem; 
+.category,
+.price {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 1rem;
+  font-size: 1.2rem;
 }
 
 #label {
-    text-align: center;
-    margin: 2rem;
-    font-size: 2rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.card:hover{
-	border: none;
-	box-shadow: 0 0 4px 3px black;
-	transform: scale(1.01);
+.card:hover {
+  border: none;
+  box-shadow: 0 0 4px 3px black;
+  transform: scale(1.01);
 }
 /* .image :hover{
     width: 10%;
 } */
 
 .btn {
-    /* color: rgb(0, 0, 0); */
-    background-color: grey;
-    border-radius: 5px;
-    margin: 4px 2px;
-    color: rgb(255, 255, 255);
-    border: 2px solid rgb(128, 128, 128);
-    height: 35px; 
-    width: 130px;
+  /* color: rgb(0, 0, 0); */
+  background-color: grey;
+  border-radius: 5px;
+  margin: 4px 2px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(128, 128, 128);
+  height: 35px;
+  width: 130px;
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 .btn:hover {
-    /* box-shadow: 0 0 2px 2px rgb(27, 29, 27);  */
-    /* transform: scale(1.2); */
-    color: rgb(0, 0, 0);
-    transform: scale(1.1);
-    cursor: pointer;
+  /* box-shadow: 0 0 2px 2px rgb(27, 29, 27);  */
+  /* transform: scale(1.2); */
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-
-.font-poppins{
-    font-family: 'Poppins', sans-serif;
+.font-poppins {
+  font-family: "Poppins", sans-serif;
 }
 
-.input{
-    width: 15cm;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    margin: 2rem;
-    background-color: rgba(223, 219, 219, 0.562);
-    border: none;
-    border-radius: 5px;
-    cursor: context-menu;
-    text-align: center;
+.input {
+  width: 15cm;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  margin: 2rem;
+  background-color: rgba(223, 219, 219, 0.562);
+  border: none;
+  border-radius: 5px;
+  cursor: context-menu;
+  text-align: center;
 }
 
 #addproduct {
-    text-align: center;
-    margin: 5rem;
-    font-size: 1rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin: 2rem;
+  font-size: 1rem;
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 #addproduct .input {
-    width: 15cm;
-    height: 1cm;
-    text-align: center;
-    margin: 1rem;
-    font-size: 1rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 15cm;
+  height: 1cm;
+  text-align: center;
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
+#editproduct {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1rem;
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+#editproduct .input {
+  width: 15cm;
+  height: 1cm;
+  text-align: center;
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
 .heading .btn {
-    /* color: rgb(0, 0, 0); */
-    background-color: grey;
-    border-radius: 5px;
-    margin: 4px 2px;
-    color: rgb(255, 255, 255);
-    border: 2px solid rgb(128, 128, 128);
-    height: 30px; 
-    width: 100px;
+  /* color: rgb(0, 0, 0); */
+  background-color: grey;
+  border-radius: 5px;
+  margin: 4px 2px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(128, 128, 128);
+  height: 30px;
+  width: 100px;
 }
+
+.input .btn {
+  width: 15cm;
+  height: 1cm;
+  text-align: center;
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+
+/*mycart*/
+#mycart {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1rem;
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+#mycart .input {
+  width: 15cm;
+  height: 1cm;
+  text-align: center;
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 /* #addproduct .addbtn {
     background-color: grey;
     border-radius: 5px;
